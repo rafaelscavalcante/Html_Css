@@ -1,0 +1,35 @@
+ @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@charset "UTF-8";
+ 
+*{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    /* height: 100%; */
+}
+body{
+    background-image: linear-gradient(to left,#7C8C03,#F2C879);
+} 
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(89, 70, 11, 0.659);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color: #A68B03;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(97, 81, 3, 0.815);
+    font-style: italic;
+    font-weight: 700;
+}
+h2{
+    color: #59460B;
+    font-style: italic;
+    font-weight: 700;
+}
+p{
+    text-align: justify;
+}

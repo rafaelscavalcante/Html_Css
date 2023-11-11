@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("imagens/espacoredimensionado.jpg");
+    background-size: cover;
+    
+}
+
+div{    
+    display: flex;
+    width: auto;
+    height:99vh;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    position: absolute;
+}
